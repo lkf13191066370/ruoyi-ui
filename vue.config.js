@@ -32,7 +32,7 @@ module.exports = {
     host: '0.0.0.0',
     port: port,
     open: true,
-    proxy: {0000
+    proxy: {
       // detail: https://cli.vuejs.org/config/#devserver-proxy
       [process.env.VUE_APP_BASE_API]: {
         target: `http://localhost:8081`,
